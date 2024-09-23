@@ -32,3 +32,5 @@ In a project that needs a toolchain, add `flake.nix`
     };
 }
 ```
+
+Then to get a shell run `nix develop`. By default, Nix shells use `bash`. If you want `zsh`, you can run `nix develop -c zsh`.
